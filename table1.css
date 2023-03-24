@@ -1,0 +1,33 @@
+table{
+	border-collapse:collapse ;
+	
+	width:100%;
+	text-allign:left;
+}
+td,th{border:2px solid;
+	padding:10px;
+}
+tr:nth-child(even){
+	background-color:#caf1fc;
+}
+tr:nth-child(odd){
+	background-color:#def6ff;
+}
+th{
+	background-color:#FFD23E;
+	color:black;
+}
+tr:hover{
+	background-color:#FFF1AE;
+}
+
+td:nth-child(1){
+	font-weight:bold;
+}
+td:nth-child(3){
+	text-allign:right;
+}
+
+.center{
+	background-color:lawngreen;
+}
